@@ -35,7 +35,20 @@ Required: Haitian nationality, civil rights, no criminal record, physically fit.
 Documents needed: birth certificate, national ID (CINU), tax ID (NIF), good conduct certificate from DCPJ, 4 ID photos, 2 recommendation letters, 1 motivation letter.
 Submission locations: Base Anacaona (Léogâne) or Corps d'Aviation base (Clercine) for Ouest department. Other departments: Civil Protection offices.
 
-RECENT NEWS:
+RECENT NEWS:Vers une augmentation de l’effectif des FAD’H
+Les Forces armées d’Haïti (FAD’H) ont lancé, ce lundi 8 juin, un processus de recrutement de nouveaux soldats dans le but d’augmenter leurs effectifs. Intervenant sur les ondes de Magik 9, le ministre de la Défense, Mario Andrésol, a précisé que cette campagne de recrutement se déroule sur l’ensemble du territoire national et prendra fin le 12 juin. Il a également annoncé la signature prochaine d’un partenariat entre les FAD’H et l’Université d’État d’Haïti (UEH), qui permettra à des professionnels, notamment des agronomes et des ingénieurs âgés de 22 à 35 ans, d’intégrer les rangs de l’armée.
+
+Grâce à ce recrutement, les FAD’H devraient compter près de 1 800 soldats dans leurs rangs au cours des quatre prochains mois, estime le ministre.
+
+Selon Mario Andrésol, des travaux de réhabilitation sont actuellement en cours à la base de Vertières, dont la capacité d’accueil est de 400 soldats. Parallèlement, des aménagements sont réalisés à la base d’Anacaona, à Léogâne, afin d’accueillir un autre contingent d’environ 700 militaires. Dans le cadre du renforcement des capacités des FAD’H, des tentes pouvant héberger entre 550 et 600 soldats ont également été acquises. Le ministre a par ailleurs indiqué que 643 candidats ayant déjà réussi les différentes épreuves sont en attente de leur intégration au sein de l’armée. Parmi eux, 200 seront envoyés au Mexique pour suivre une formation, tandis que les autres poursuivront leur préparation en Haïti.
+
+Bien qu’aucun quota précis n’ait été fixé pour cette campagne de recrutement, Mario Andrésol a expliqué que les candidats retenus seront inscrits dans une base de données. Ils pourront ensuite être convoqués progressivement en fonction des besoins et des capacités d’accueil des nouvelles promotions.
+
+Interrogé sur une éventuelle augmentation du budget du ministère de la Défense dans le cadre du budget rectificatif en préparation, le ministre a confirmé qu’une hausse est effectivement prévue. Sans pouvoir préciser le montant exact, il a indiqué que celui-ci devrait avoisiner les 960 millions de gourdes.
+
+Pour l’exercice fiscal 2025-2026, le ministère de la Défense dispose d’une enveloppe budgétaire de 10,6 milliards de gourdes, dont 5 milliards consacrés aux investissements. Avec l’augmentation envisagée, ce budget devrait atteindre environ 11 milliards de gourdes.
+
+« Nous avions un ensemble de projets en cours et nous espérons les finaliser grâce au budget rectificatif », a déclaré Mario Andrésol. Selon lui, cette augmentation budgétaire constitue un signal fort de la volonté du gouvernement de renforcer les capacités du pays en matière de défense et de sécurité.
 339 new soldiers graduated in the Capois La Mort promotion at Base Vertières.
 FAD'H participated in UNDP Public Services Fair (May 28, 2026).
 May 18, 2026: FAD'H marched in Flag Day parade.
