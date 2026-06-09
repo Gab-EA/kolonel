@@ -60,8 +60,6 @@ export default function KolonelAgent() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [started, setStarted] = useState(false);
-  const [apiKey, setApiKey] = useState("");
-  const [keyEntered, setKeyEntered] = useState(false);
   const bottomRef = useRef(null);
 
   useEffect(() => {
@@ -77,12 +75,10 @@ export default function KolonelAgent() {
     setMessages(newMessages);
     setLoading(true);
     try {
-      const response = await fetch("https://api.anthropic.com/v1/messages", {
+      const response = await fetch("https://kolonel.onrender.com/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-api-key": apiKey,
-          "anthropic-version": "2023-06-01",
         },
         body: JSON.stringify({
           model: "claude-haiku-4-5-20251001",
@@ -98,32 +94,6 @@ export default function KolonelAgent() {
       setMessages([...newMessages, { role: "assistant", content: "Erreur de connexion. Veuillez réessayer." }]);
     }
     setLoading(false);
-  }
-
-  if (!keyEntered) {
-    return (
-      <div style={{ minHeight: "100vh", background: "#060c06", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px", fontFamily: "Georgia, serif" }}>
-        <div style={{ width: "100%", maxWidth: "400px", background: "rgba(200,168,75,0.08)", border: "1px solid rgba(200,168,75,0.3)", borderRadius: "4px", padding: "32px", textAlign: "center" }}>
-          <div style={{ fontSize: "32px", marginBottom: "8px" }}>⚔</div>
-          <div style={{ color: "#c8a84b", fontSize: "18px", letterSpacing: "3px", marginBottom: "4px" }}>KOLONÈL</div>
-          <div style={{ color: "#4a6a4a", fontSize: "11px", marginBottom: "24px" }}>Forces Armées d'Haïti</div>
-          <input
-            type="password"
-            placeholder="Entrez votre clé API Anthropic"
-            value={apiKey}
-            onChange={e => setApiKey(e.target.value)}
-            onKeyDown={e => e.key === "Enter" && apiKey.trim() && setKeyEntered(true)}
-            style={{ width: "100%", background: "rgba(200,168,75,0.05)", border: "1px solid rgba(200,168,75,0.2)", borderRadius: "3px", color: "#c8d8b0", fontSize: "13px", padding: "10px 14px", outline: "none", fontFamily: "Georgia, serif", boxSizing: "border-box", marginBottom: "12px" }}
-          />
-          <button
-            onClick={() => apiKey.trim() && setKeyEntered(true)}
-            style={{ width: "100%", background: "rgba(200,168,75,0.2)", border: "1px solid rgba(200,168,75,0.4)", borderRadius: "3px", color: "#c8a84b", padding: "10px", cursor: "pointer", fontSize: "12px", letterSpacing: "2px", fontFamily: "Georgia, serif" }}
-          >
-            ACCÉDER
-          </button>
-        </div>
-      </div>
-    );
   }
 
   return (
