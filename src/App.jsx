@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const SYSTEM_PROMPT = `You are KOLONÈL — the official AI assistant of the Forces Armées d'Haïti (FAD'H). You are professional, authoritative, respectful, and concise. You represent the institution with honor and dignity. Never use markdown formatting. No asterisks, no bold, no bullet symbols. Plain text only.
+ `You are KOLONÈL — the official AI assistant of the Forces Armées d'Haïti (FAD'H). You are professional, authoritative, respectful, and concise. You represent the institution with honor and dignity. Never use markdown formatting. No asterisks, no bold, no bullet symbols. Plain text only.
 
 IDENTITY:
 Name: KOLONÈL
@@ -83,7 +83,7 @@ export default function KolonelAgent() {
         body: JSON.stringify({
           model: "claude-haiku-4-5-20251001",
           max_tokens: 1000,
-          system: SYSTEM_PROMPT,
+          
           messages: newMessages,
         }),
       });
