@@ -101,7 +101,7 @@ export default function KolonelAgent() {
       <div style={{ position: "fixed", inset: 0, pointerEvents: "none", background: "radial-gradient(ellipse at 15% 50%, rgba(0,80,0,0.12) 0%, transparent 55%), radial-gradient(ellipse at 85% 20%, rgba(0,50,100,0.08) 0%, transparent 45%)" }} />
 
       <div style={{ textAlign: "center", marginBottom: "24px" }}>
-        <div style={{ width: "60px", height: "60px", margin: "0 auto 12px", borderRadius: "50%", background: "rgba(200,168,75,0.1)", border: "1px solid rgba(200,168,75,0.35)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px" }}>⚔</div>
+        <div style={{ width: "80px", height: "80px", margin: "0 auto 12px", display: "flex", alignItems: "center", justifyContent: "center" }}><img src="/fadh-logo.png" alt="FADH" style={{width:"80px",height:"80px",objectFit:"contain",filter:"drop-shadow(0 0 8px rgba(200,168,75,0.3))"}} /></div>
         <div style={{ fontSize: "10px", letterSpacing: "8px", color: "#c8a84b", textTransform: "uppercase", marginBottom: "4px" }}>Forces Armées d'Haïti</div>
         <div style={{ fontSize: "26px", fontWeight: "bold", color: "#e8f0e0", letterSpacing: "4px" }}>KOLONÈL</div>
         <div style={{ fontSize: "10px", letterSpacing: "3px", color: "#4a6a4a", textTransform: "uppercase", marginTop: "4px" }}>Assistant Officiel</div>
@@ -139,7 +139,7 @@ export default function KolonelAgent() {
               {messages.map((m, i) => (
                 <div key={i} style={{ display: "flex", justifyContent: m.role === "user" ? "flex-end" : "flex-start", alignItems: "flex-start", gap: "8px" }}>
                   {m.role === "assistant" && (
-                    <div style={{ width: "26px", height: "26px", borderRadius: "50%", flexShrink: 0, background: "rgba(200,168,75,0.1)", border: "1px solid rgba(200,168,75,0.3)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "11px", marginTop: "2px" }}><img src="/fadh-logo.png" alt="FADH" style={{width:"55px",height:"55px",objectFit:"contain",filter:"drop-shadow(0 0 8px rgba(200,168,75,0.3))"}} /></div>
+                    <div style={{ width: "26px", height: "26px", borderRadius: "50%", flexShrink: 0, background: "rgba(200,168,75,0.1)", border: "1px solid rgba(200,168,75,0.3)", display: "flex", alignItems: "center", justifyContent: "center", marginTop: "2px" }}><img src="/fadh-logo.png" alt="FADH" style={{width:"18px",height:"18px",objectFit:"contain"}} /></div>
                   )}
                   <div style={{ maxWidth: "78%", padding: "10px 14px", borderRadius: "2px", fontSize: "13px", lineHeight: "1.7", ...(m.role === "user" ? { background: "rgba(45,138,45,0.12)", border: "1px solid rgba(45,138,45,0.25)", color: "#b0c8a0" } : { background: "rgba(200,168,75,0.05)", border: "1px solid rgba(200,168,75,0.12)", color: "#9aaa80" }) }}>
                     {m.content}
@@ -148,7 +148,7 @@ export default function KolonelAgent() {
               ))}
               {loading && (
                 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                  <div style={{ width: "26px", height: "26px", borderRadius: "50%", background: "rgba(200,168,75,0.1)", border: "1px solid rgba(200,168,75,0.3)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "11px" }}>⚔</div>
+                  <div style={{ width: "26px", height: "26px", borderRadius: "50%", background: "rgba(200,168,75,0.1)", border: "1px solid rgba(200,168,75,0.3)", display: "flex", alignItems: "center", justifyContent: "center" }}><img src="/fadh-logo.png" alt="FADH" style={{width:"18px",height:"18px",objectFit:"contain"}} /></div>
                   <div style={{ padding: "10px 16px", background: "rgba(200,168,75,0.05)", border: "1px solid rgba(200,168,75,0.12)", borderRadius: "2px", display: "flex", gap: "5px", alignItems: "center" }}>
                     {[0,1,2].map(d => (<div key={d} style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#c8a84b", animation: `pulse 1.3s ease-in-out ${d*0.22}s infinite` }} />))}
                   </div>
@@ -191,4 +191,3 @@ export default function KolonelAgent() {
     </div>
   );
 }
-S
